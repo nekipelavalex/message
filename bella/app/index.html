@@ -31,17 +31,14 @@
 			padding: 0;
 			display: block;
 		}
-
 		table td {
 			border-collapse: collapse;
 		}
-
 		table {
 			border-collapse: collapse;
 			mso-table-lspace: 0pt;
 			mso-table-rspace: 0pt;
 		}
-
 		.menu a {
 			font-size: 14px;
 			color: #6c6c6c;
@@ -49,21 +46,17 @@
 			letter-spacing: 0.2px;
 			text-decoration: none;
 		}
-
 		.menu td {
 			padding-left: 30px;
 		}
-
 		.header-td {
 			padding-top: 40px;
 			padding-bottom: 40px;
 		}
-
 		.features-td td {
 			padding-top: 100px;
 			padding-bottom: 30px;
 		}
-
 		.features-td p {
 			color: #8c8c8c;
 			font-size: 14px;
@@ -71,45 +64,71 @@
 			line-height: 26px;
 			letter-spacing: 0.28px;
 		}
-		.blockqoute-td{
+		.blockqoute-td {
 			padding-top: 150px;
 			padding-bottom: 50px;
 		}
-		.block-td p{
+		.block-td p {
 			color: #8c8c8c;
 			font-size: 14px;
 			font-weight: 400;
 			line-height: 26px;
 			letter-spacing: 0.28px;
 		}
-		.block-table td{
+		.block-table td {
 			padding-top: 40px;
 			padding-bottom: 40px;
 		}
-		.block-table{
+		.block-table {
 			border-top: 1px solid #e6e6e6;
-            border-left: 1px solid #e6e6e6;
-            border-right: 1px solid #e6e6e6;
-            border-bottom: 1px solid #e6e6e6;
+			border-left: 1px solid #e6e6e6;
+			border-right: 1px solid #e6e6e6;
+			border-bottom: 1px solid #e6e6e6;
 		}
-		.author{
+		.author {
 			padding-top: 20px;
 		}
 		.author h3 {
-            margin-top: 20px;
-            color: #686868;
+			margin-top: 20px;
+			color: #686868;
+			font-size: 14px;
+			font-weight: 600;
+			letter-spacing: 0.56px;
+			margin-bottom: 5px;
+		}
+		.author p {
+			color: #8c8c8c;
+			font-size: 13px;
+			font-weight: 300;
+			font-size: 14px;
+			letter-spacing: 0.52px;
+			margin: 0;
+		}
+		.footer-td{
+			padding-top: 80px;
+			padding-bottom: 80px;
+		}
+		.footer-menu-td{
+			padding-top: 60px;
+			padding-bottom: 35px;
+		}
+		.footer-menu-td a{
+			color: #bcc9dd;
             font-size: 14px;
-            font-weight: 600;
-            letter-spacing: 0.56px;
-            margin-bottom: 5px;
+            font-weight: 400;
+            letter-spacing: 0.36px;
+            text-decoration: none;
+		}
+		.copyright-td {
+            color: #bcc9dd;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.31px;
         }
-        .author p {
-            color: #8c8c8c;
-            font-size: 13px;
-            font-weight: 300;
-            font-size: 14px;
-            letter-spacing: 0.52px;
-            margin: 0;
+        .copyright-td a {
+            font-weight: 600;
+            text-decoration: none;
+            color: #bcc9dd;
         }
 	</style>
 </head>
@@ -223,12 +242,14 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="author" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+									<td class="author" align="center"
+										style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
 										<img src="img/author-1.png" alt="author">
 										<h3>Alexander Doe</h3>
 										<p>Senior UX Developer</p>
 									</td>
-									<td class="author" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+									<td class="author" align="center"
+										style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
 										<img src="img/author-2.png" alt="author">
 										<h3>Laurie Doe</h3>
 										<p>Marketing Expert</p>
@@ -238,7 +259,45 @@
 						</td>
 					</tr>
 					<tr>
-						<td height="30" width="850"></td>
+						<td class="footer-td" bgcolor="#38404b">
+							<table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+								<tr>
+									<td class="footer-logo" align="center">
+										<a href="#">
+											<img src="img/Bella-footer.png" alt="footer-logo" />
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td class="footer-menu-td" align="center">
+										<table cellpadding="0" cellspacing="0" width="600" align="center">
+											<tr>
+												<td align="center"><a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">About
+														Us</a></td>
+												<td align="center"><a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Team</a>
+												</td>
+												<td align="center"><a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">News</a>
+												</td>
+												<td align="center"><a href="#"
+														style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Contact
+														Us</a></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="copyright-td" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+										© 2014 pixelhint.com. All Rights Reserved</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="30" width="850">
+						</td>
 					</tr>
 				</table>
 			</td>
