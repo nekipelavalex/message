@@ -1,0 +1,1 @@
+maket https://stripo.email/ru/demo/?template=1010&project=421
