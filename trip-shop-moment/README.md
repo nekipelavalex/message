@@ -1,0 +1,1 @@
+maket https://stripo.email/ru/templates/promo-email-template-appreciate-moment-tourism-industry/
